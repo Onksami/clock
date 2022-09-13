@@ -6,7 +6,7 @@
 
     animation = [
         "@keyframes sec-hand{from{transform: rotate(" + second + "deg);}to{transform: rotate(" + (second + 360) + "deg);}}",
-        "@keyframes min-hand{from{transform: rotate(" + munite + "deg);}to{transform: rotate(" + (minute + 360) + "deg);}}",
+        "@keyframes min-hand{from{transform: rotate(" + minute + "deg);}to{transform: rotate(" + (minute + 360) + "deg);}}",
         "@keyframes hr-hand{from{transform: rotate(" + hour + "deg);}to{transform: rotate(" + (second + 360) + "deg);}}"
         
     ].join("");
